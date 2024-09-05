@@ -1,7 +1,6 @@
 # MuEP
 This repository is the official implementation of the following paper.
-[**A Multimodal Benchmark for Embodied Planning with Foundation Models**](https://www.ijcai.org/proceedings/2024/0015.pdf)
-
+**[A Multimodal Benchmark for Embodied Planning with Foundation Models](https://www.ijcai.org/proceedings/2024/0015.pdf)**
 <br/>
 [Kanxue Li](https://scholar.google.com.hk/citations?user=QLGwtYUAAAAJ&hl=en), [Baosheng Yu](https://scholar.google.com.hk/citations?user=fjzIdMQAAAAJ&hl=en), [Qi Zheng](https://scholar.google.com.hk/citations?hl=en&user=WbM2PosAAAAJ),[Yibing Zhan](https://scholar.google.com.hk/citations?user=rjd977cAAAAJ&hl=en),Yuhui Zhang,[Tianle Zhang](https://scholar.google.com.hk/citations?user=2MXFRAMAAAAJ&hl=en), [Yijun Yang](https://scholar.google.com/citations?user=X0quXnsAAAAJ&hl=en), Yue Chen, Lei Sun, [Qiong Cao](https://scholar.google.com.hk/citations?user=JYtbNBsAAAAJ&hl=en), [Li Shen](https://sites.google.com/site/mathshenli/home), Lvsong Li, [Dapeng Tao](https://scholar.google.com/citations?user=AQzS40gAAAAJ&hl=en), [Xiaodong He](https://scholar.google.com/citations?user=W5WbqgoAAAAJ&hl=en)
 <br/>
