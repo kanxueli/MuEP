@@ -19,7 +19,7 @@ Foundation models have demonstrated signifcant emergent abilities, holding great
 ## TODO
 
 - [x] Release Testing environment for MuEP
-- [ ] Release [MuEP Dataset](https://huggingface.co/datasets/kanxue/MuEP)
+- [ ] Release MuEP Dataset
 - [ ] Release dataset construction code
 - [ ] Release evaluation and metrics code
 
