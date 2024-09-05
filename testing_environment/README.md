@@ -4,35 +4,35 @@ We conduct extensive experiments on test tasks from the original [ALFWORLD](http
 
 
 
-
-## Setup
+## Getting Started
 
 First, we need to install the ALFWORLD testing environment by following [this guide](https://github.com/alfworld/alfworld).
 
 After installing the ALFWORLD environment, the HTTP client configuration must be completed before running the test scripts. The `network_alfworld_client.py` corresponds to the multimodal testing client, while `network_textworld_client.py` corresponds to the pure text testing client. Next, we will take the multimodal testing setup as an example for configuration.
 
-1.Configure the URL
-
-Instantiate the `url` parameter in [network_alfworld_client.py L26](https://github.com/kanxueli/MuEP/blob/main/testing_environment/network_alfworld_client.py#L26) to specify the server's IP and PORT.
-
-2.Select the Testing Environment (#Seen/#Unseen)
-
-Depending on your needs, specify the testing environment by setting [network_alfworld_client.py L148](https://github.com/kanxueli/MuEP/blob/main/testing_environment/network_alfworld_client.py#L148). If you need to run tests in the #Seen scenario, select `seen_valid_path`. For the #Unseen scenario, select `unseen_valid_path`.
-
-If you are conducting pure text-based testing, modify the `network_textworld_client.py` file. The configuration process is similar to steps 1 and 2.
-
-3.Run the Testing Environment Client (Note: The client must be run after the server is started)
-
-For multimodal testing, run the following script:
-
-```bash
-$ python network_alfworld_client.py
-```
-For text-based testing, run the following script:
-
-```bash
-$ python network_textworld_client.py
-```
+> 1.Configure the URL
+>
+> Instantiate the `url` parameter in [network_alfworld_client.py L26](https://github.com/kanxueli/MuEP/blob/main/testing_environment/network_alfworld_client.py#L26) to specify the server's IP and PORT.
+>
+> 2.Select the Testing Environment (#Seen/#Unseen)
+>
+> Depending on your needs, specify the testing environment by setting [network_alfworld_client.py L148](https://github.com/kanxueli/MuEP/blob/main/testing_environment/network_alfworld_client.py#L148). If you need to run tests in the #Seen scenario, select `seen_valid_path`. For the #Unseen scenario, select `unseen_valid_path`.
+>
+> If you are conducting pure text-based testing, modify the `network_textworld_client.py` file. The configuration process is similar to steps 1 and 2.
+>
+> 3.Run the Testing Environment Client (Note: The client must be run after the server is started)
+>
+> For multimodal testing, run the following script:
+>
+> ```bash
+> $ python network_alfworld_client.py
+> ```
+> For text-based testing, run the following script:
+>
+> ```bash
+> $ python network_textworld_client.py
+> ```
+>
 
 
 
